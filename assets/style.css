@@ -1,30 +1,29 @@
+/*Apply this to the whole page*/
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-
 }
 
 body {
-  
   background-image: url("./images/grizzlygulch.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
+/*Header Section*/
 header h1 {
-  font-size: 75px;
+  font-size: 50px;
   margin: 0;
   text-align: right;
-  color: #ffff00;
-  font-style: italic;
-  font-family: Marker Felt, fantasy;
-  font-stretch: ultra-condensed;
+  color: #f77f00;
+  font-style: bold;
+  font-family: Impact, fantasy;
+  font-stretch: ultra-expanded;
 }
 
 header h1 p {
-  font-size: 50px;
+  font-size: 35px;
   margin: 0;
   text-align: right;
   color: aliceblue;
@@ -32,6 +31,7 @@ header h1 p {
   
 }
 
+/*Nav Sectioin*/
 header nav {
   text-align: end;
   padding: 10px 15px;
@@ -42,19 +42,47 @@ header nav {
 
 header nav ul li a {
   text-align: end;
+  font-family: monospace;
+  font-size: 20px;
 }
+
+
 /*Intro Box Section*/
 .intro {
-  border: 100px blue;
+  border: 100p;
   padding: 160px;
   margin: auto;
-  height: 500px;
+  height: 200px;
   box-sizing: content-box;
   text-align: center;
   font-size: 32px;
-  font-family: Marker Felt, fantasy;
-  color: #1e90ff;
+  font-family: Impact, fantasy;
+  color: #0070ff;
 }
+
+.intro p span {
+  color: #f77f00;
+  font-family:inherit;
+}
+
+.my-story {
+  border: 100p;
+  padding: 160px;
+  margin: auto;
+  height: 120px;
+  box-sizing: content-box;
+  text-align: center;
+  font-size: 32px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #0070ff;
+}
+
+.my-story p {
+  color: #f77f00;
+}
+/*End Intro Section*/
+
+
 
 .about-me {
   text-align: center;
