@@ -16,7 +16,7 @@ header h1 {
   font-size: 50px;
   margin: 0;
   text-align: right;
-  color: #f77f00;
+  color: #3cb371;
   font-style: bold;
   font-family: Impact, fantasy;
   font-stretch: ultra-expanded;
@@ -29,6 +29,21 @@ header h1 p {
   color: aliceblue;
   font-weight: bold;
   
+}
+
+/*Footer*/
+footer {
+  background-color: white;
+  font-size: 26px;
+  display:flex;
+}
+
+.linkedin {
+  text-align: end;
+}
+
+.hub {
+  text-align: end;
 }
 
 /*Nav Sectioin*/
@@ -49,10 +64,10 @@ header nav ul li a {
 
 /*Intro Box Section*/
 .intro {
-  border: 100p;
+  border: 100px;
   padding: 160px;
   margin: auto;
-  height: 200px;
+  height: 300px;
   box-sizing: content-box;
   text-align: center;
   font-size: 32px;
@@ -61,7 +76,7 @@ header nav ul li a {
 }
 
 .intro p span {
-  color: #f77f00;
+  color: #3cb371 ;
   font-family:inherit;
 }
 
@@ -74,15 +89,27 @@ header nav ul li a {
   text-align: center;
   font-size: 32px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #0070ff;
+  color: #3cb371 ;
+  
 }
 
 .my-story p {
-  color: #f77f00;
+  color: #0070ff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  background-color: whitesmoke;
 }
+
+.my-story p span {
+  color: #ff2400;
+}
+
+
 /*End Intro Section*/
 
-
+.hub {
+  
+}
 
 .about-me {
   text-align: center;
@@ -95,12 +122,20 @@ header nav ul li a {
 }
 
 
-.socials {
-  text-align: end;
-  font-size: 32px;
+
+
+
+#work {
+  border: 100px;
+  padding: inherit;
+  margin: auto;
+  width: auto;
+  height: 300px;
 }
 
+#websites {
 
+}
 
 
 
