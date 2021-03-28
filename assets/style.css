@@ -9,133 +9,290 @@ body {
   background-image: url("./images/grizzlygulch.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50%;
 }
 
 /*Header Section*/
+header {
+  display: flex-end;
+  flex-wrap: wrap;
+}
+
 header h1 {
-  font-size: 50px;
-  margin: 0;
+  font-size: 40px;
+  margin: 10px;
+ 
   text-align: right;
   color: #3cb371;
-  font-style: bold;
+  text-shadow: white;
   font-family: Impact, fantasy;
   font-stretch: ultra-expanded;
 }
 
 header h1 p {
-  font-size: 35px;
+  font-size: 25px;
   margin: 0;
+  
   text-align: right;
   color: aliceblue;
   font-weight: bold;
-  
 }
 
 /*Footer*/
 footer {
-  background-color: white;
+  background-color:;
   font-size: 26px;
-  display:flex;
 }
 
-.linkedin {
-  text-align: end;
+footer h2 {
+  text-align: center;
+  font-family: impact fantasy;
+  font-size: 40px;
+}
+
+.github {
+  
 }
 
 .hub {
-  text-align: end;
+  width: 250px;
+  height: 130px;
 }
+
+.in {
+  width: 300px;
+  height: 180px;
+}
+
+/*End footer*/
+
+
 
 /*Nav Sectioin*/
 header nav {
   text-align: end;
-  padding: 10px 15px;
+  margin: 10px;
   font-weight: lighter;
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  display: flex-end;
 }
 
 header nav ul li a {
   text-align: end;
-  font-family: monospace;
+  font-family: impact fantasy;
   font-size: 20px;
 }
+
+header nav ul li a:hover {
+  background: #3cb371;
+  color: #0070ff ;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+
 
 
 /*Intro Box Section*/
 .intro {
   border: 100px;
-  padding: 160px;
+  padding: 120px;
   margin: auto;
-  height: 300px;
+  height: 100px;
   box-sizing: content-box;
   text-align: center;
-  font-size: 32px;
+  font-size: 26px;
   font-family: Impact, fantasy;
-  color: #0070ff;
+  color: #3cb371;
+  
+  
 }
 
 .intro p span {
-  color: #3cb371 ;
+  color: #0070ff ;
   font-family:inherit;
 }
 
+.photo {
+  text-align: center;
+}
+
+.layla {
+  height: 400px;
+  width: 400px;
+}
+
+/*my-story section*/
+.story {
+  
+}
+
 .my-story {
-  border: 100p;
-  padding: 160px;
+  border: 75px;
+  padding: 200px;
   margin: auto;
   height: 120px;
   box-sizing: content-box;
   text-align: center;
-  font-size: 32px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 26px;
+  font-family: impact fantasy;
   color: #3cb371 ;
-  
+  justify-content: space-between;
 }
 
 .my-story p {
-  color: #0070ff;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #3cb371;
+  font-family: impact fantasy;
   font-weight: bold;
-  background-color: whitesmoke;
+  font-stretch: ultra-expanded;
 }
 
 .my-story p span {
-  color: #ff2400;
+  color: #0070ff;
 }
 
 
-/*End Intro Section*/
+/*End my-story Section*/
 
-.hub {
-  
-}
 
-.about-me {
-  text-align: center;
-  font-size: 32px;
+/*My Work Section*/
+
+.resize {
+  height: 300px;
+  width: 400px;
 }
 
 .work {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline stretch;
+}
+
+
+.run-bud {
   text-align: center;
-  font-size: 32px;
+  font-size: 30px;
+  font-family: impact fantasy;
+}
+
+.run-bud:hover {
+  background: #3cb371;
+  color: #0070ff ;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+.code {
+  text-align: center;
+  font-size: 30px;
+  font-family: impact fantasy;
+}
+
+.code:hover {
+  background: #3cb371;
+  color: #0070ff ;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
+.resume1 {
+  text-align: center;
+  font-size: 30px;
+  font-family: impact fantasy;
+}
+
+.resume1:hover {
+  background: #3cb371;
+  color: #0070ff ;
+  border-radius: 15px;
+  text-shadow: none;
 }
 
 
 
 
 
-#work {
-  border: 100px;
-  padding: inherit;
-  margin: auto;
-  width: auto;
-  height: 300px;
+/*Media query for desktop screens and smaller*/
+@media screen and (min-width: 575px) {
+  header {
+    
+  }
+  header h1 {
+  
+  }
+
+  header nav ul {
+    
+  }
+
+  header nav ul li a {
+   
+  }
+
+  .intro {
+
+  }
+
+  .my-story {
+    
+  }
+
+  .my-story p {
+    
+  }
+  
+  .work {
+
+  }
+
+
 }
 
-#websites {
+
+/*Media query for tablets and smaller*/
+@media screen and (min-wdith: 768px) {
 
 }
+
+
+/*Media query for mobile phones and smaller*/
+@media screen and (min-wdith: 980px) {
+  header {
+  }
+
+  header h1 {
+  
+  }
+
+  header nav ul {
+ 
+  }
+
+  header nav ul li a  {
+   
+  }
+
+  .intro {
+
+  }
+
+  .my-story {
+    
+  }
+
+  .my-story p {
+    
+  }
+  
+}
+
+
+
+
+
+
 
 
 
