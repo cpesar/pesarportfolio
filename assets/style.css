@@ -40,26 +40,33 @@ header h1 p {
 
 /*Footer*/
 footer {
-  background-color:;
-  font-size: 26px;
+  background: white;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-footer h2 {
+.email {
+  padding: 75px;
+  display: flex;
   text-align: center;
-  font-family: impact fantasy;
-  font-size: 40px;
-}
-
-.github {
-  
+  font-size: 50px;
 }
 
 .hub {
+  display: flex;
+  padding-top: 30px;
+  padding-right: 70px;
   width: 250px;
   height: 130px;
 }
 
 .in {
+  display: flex;
+  padding-top: 15px;
+  padding-right: 40px;
   width: 300px;
   height: 180px;
 }
@@ -124,11 +131,9 @@ header nav ul li a:hover {
 }
 
 /*my-story section*/
-.story {
-  
-}
 
-.my-story {
+
+.story {
   border: 75px;
   padding: 200px;
   margin: auto;
@@ -141,14 +146,14 @@ header nav ul li a:hover {
   justify-content: space-between;
 }
 
-.my-story p {
+.story p {
   color: #3cb371;
   font-family: impact fantasy;
   font-weight: bold;
   font-stretch: ultra-expanded;
 }
 
-.my-story p span {
+.story p span {
   color: #0070ff;
 }
 
@@ -161,11 +166,15 @@ header nav ul li a:hover {
 .resize {
   height: 300px;
   width: 400px;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
 }
 
 .work {
   margin: 0 auto;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   align-items: baseline stretch;
 }
@@ -217,7 +226,9 @@ header nav ul li a:hover {
 /*Media query for desktop screens and smaller*/
 @media screen and (min-width: 575px) {
   header {
-    
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
   }
   header h1 {
   
@@ -252,26 +263,30 @@ header nav ul li a:hover {
 
 
 /*Media query for tablets and smaller*/
-@media screen and (min-wdith: 768px) {
+@media screen and (min-width: 768px) {
 
 }
 
 
 /*Media query for mobile phones and smaller*/
-@media screen and (min-wdith: 980px) {
+@media screen and (min-width: 980px) {
   header {
+   text-align: right;
+   justify-items: inherit;
+   
   }
 
   header h1 {
-  
+    text-align: right;
   }
 
   header nav ul {
- 
+    padding: 0;
+    
   }
 
   header nav ul li a  {
-   
+    
   }
 
   .intro {
