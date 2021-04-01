@@ -32,7 +32,6 @@ header h1 {
 header h1 p {
   font-size: 25px;
   margin: 0;
-  
   text-align: right;
   color: aliceblue;
   font-weight: bold;
@@ -41,7 +40,7 @@ header h1 p {
 /*Footer*/
 footer {
   background: white;
-  padding: 20px 20px;
+  padding: 100px 60px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -103,17 +102,17 @@ header nav ul li a:hover {
 
 /*Intro Box Section*/
 .intro {
+  font-size: 26px;
+  text-align: center;
   border: 100px;
   padding: 120px;
   margin: auto;
   height: 100px;
   box-sizing: content-box;
   text-align: center;
-  font-size: 26px;
+  
   font-family: Impact, fantasy;
-  color: #3cb371;
-  
-  
+  color: #3cb371; 
 }
 
 .intro p span {
@@ -131,7 +130,6 @@ header nav ul li a:hover {
 }
 
 /*my-story section*/
-
 
 .story {
   border: 75px;
@@ -164,19 +162,28 @@ header nav ul li a:hover {
 /*My Work Section*/
 
 .resize {
-  height: 300px;
-  width: 400px;
+  
+  height: 400px;
+  width: 500px;
   flex-wrap: wrap;
   display: flex;
   flex-direction: row;
+  -webkit-box-align: center;
+  align-content: space-around;
+  
 }
 
 .work {
+  width: 100%;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
-  align-items: baseline stretch;
+}
+
+.hustle {
+  margin: 20px;
+  flex: 1;
 }
 
 
@@ -223,85 +230,54 @@ header nav ul li a:hover {
 
 
 
-/*Media query for desktop screens and smaller*/
-@media screen and (min-width: 575px) {
-  header {
-    padding-bottom: 0;
-    justify-content: center;
-    position: relative;
-  }
-  header h1 {
-  
-  }
+/* iPhone 5 */
+@media screen and (min-width: 320px ){
 
-  header nav ul {
-    
-  }
+}
 
-  header nav ul li a {
-   
-  }
-
-  .intro {
-
-  }
-
-  .my-story {
-    
-  }
-
-  .my-story p {
-    
-  }
-  
-  .work {
-
-  }
-
+/* Google Pixel & HTC  */
+@media screen and (min-width: 360px){
 
 }
 
 
-/*Media query for tablets and smaller*/
-@media screen and (min-width: 768px) {
+/* iPhone 6, 7, 8 */
+@media screen and (min-width: 375px ){
 
 }
-
-
-/*Media query for mobile phones and smaller*/
-@media screen and (min-width: 980px) {
-  header {
-   text-align: right;
-   justify-items: inherit;
-   
-  }
-
-  header h1 {
-    text-align: right;
-  }
-
-  header nav ul {
-    padding: 0;
-    
-  }
-
-  header nav ul li a  {
-    
-  }
-
-  .intro {
-
-  }
-
-  .my-story {
-    
-  }
-
-  .my-story p {
-    
-  }
   
+
+
+/* iPhone 6+,7+,8+ */
+@media screen and (min-width: 414px){
+
 }
+
+
+ /* iPhone X */
+@media screen and (min-width: 375px){
+
+}
+
+/* 
+ 
+/* Windows phone */
+@media screen and (min-width: 414px){
+
+}
+
+
+/*iPad and tablets */
+@media screen and (min-width: 768px){
+
+}
+
+
+/*Latops and large tablets */
+@media screen and (min-width: 1200px){
+
+}
+
 
 
 
